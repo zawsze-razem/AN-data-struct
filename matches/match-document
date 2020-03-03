@@ -1,0 +1,7 @@
+{
+  mode:"Manhunt",
+  players1:["Erik","Jelko"],
+  players2:["Dellpit","Also Dellpit"],
+  outcome: 1,
+  new:"True"
+}
