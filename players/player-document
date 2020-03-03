@@ -1,7 +1,7 @@
 {
   name:"name",
-  emmr:?,
-  mhmmr:?,
+  emmr:1000,
+  mhmmr:1000,
   ign:[],
   link:"?",
   nation:"?",
