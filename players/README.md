@@ -1,8 +1,8 @@
 # Player document data structure explained
 
 * name:"STRING" <- unique player name to be used to identify them
-* emmr:1000 <- Escort MMR value, input a default value of ???
-* mhmmr:1000 <- Manhunt MMR value, input a default value of ???
+* emmr:? <- Escort MMR value, input a default value of 1000
+* mhmmr:? <- Manhunt MMR value, input a default value of 1000
 * ign:[] <- list of Strings - known IGNs of the player
 * link:"?" <- link to twitter or some social media, can be left empty
 * nation:"?" <- String, two characted code of the country of origin according to the ISO standard, all caps, can be empty
