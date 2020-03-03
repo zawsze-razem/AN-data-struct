@@ -1,4 +1,4 @@
-#Match document explained
+# Match document explained
 Fields:
 * mode : "Escort" / "Manhunt"
 * players1 : ["1","2"] <- an array of players on Team 1
