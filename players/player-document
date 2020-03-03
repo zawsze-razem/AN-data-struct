@@ -1,13 +1,13 @@
 {
   name:"name",
-  emmr:1000,
-  mhmmr:1000,
+  emmr:NumberInt(1000),
+  mhmmr:NumberInt(1000),
   ign:[],
   link:"?",
   nation:"?",
   ehistory:[],
   mhhistory:[],
-  egames:[0,0,0],
-  mhgames:[0,0,0],
+  egames:[NumberInt(0),NumberInt(0),NumberInt(0)],
+  mhgames:[NumberInt(0),NumberInt(0),NumberInt(0)],
   platforms:[]
 }
