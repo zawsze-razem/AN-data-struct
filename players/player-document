@@ -1,0 +1,13 @@
+{
+  name:"name",
+  emmr:?,
+  mhmmr:?,
+  ign:[],
+  link:"?",
+  nation:"?",
+  ehistory:[],
+  mhhistory:[],
+  egames:[0,0,0],
+  mhgames:[0,0,0],
+  platforms:[]
+}
