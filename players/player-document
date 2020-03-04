@@ -7,7 +7,7 @@
   nation:"?",
   ehistory:[],
   mhhistory:[],
-  egames:[NumberInt(0),NumberInt(0),NumberInt(0)],
-  mhgames:[NumberInt(0),NumberInt(0),NumberInt(0)],
+  egames:{total:NumberInt(0),won:NumberInt(0),lost:NumberInt(0)},
+  mhgames:{total:NumberInt(0),won:NumberInt(0),lost:NumberInt(0)},
   platforms:[]
 }
