@@ -21,5 +21,6 @@ Let's say we have two teams: Team 1 (Joe and Dave), Team 2 (Susan and Karen). Th
 E,2,2,1,Joe,Dave,Susan,Karen
 
 --header----------body----------
+
 [E,2,2,1],[Joe,Dave,Susan,Karen]
 
