@@ -11,3 +11,5 @@
 * egames:{total:0,won:0,lost:0} <- objects with game statistics - Escort
 * mhgames:{total:0,won:0,lost:0} <- objects with game statistics - Manhunt
 * platforms:[] <- array of Strings, platforms on which the player plays
+* estats:{avgscore:0,highscore:NumberInt(0),kills:NumberInt(0),deaths:NumberInt(0)}
+* mhstats:{avgscore:0,highscore:NumberInt(0),kills:NumberInt(0),deaths:NumberInt(0)}
