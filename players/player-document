@@ -9,5 +9,7 @@
   mhhistory:[],
   egames:{total:NumberInt(0),won:NumberInt(0),lost:NumberInt(0)},
   mhgames:{total:NumberInt(0),won:NumberInt(0),lost:NumberInt(0)},
-  platforms:[]
+  platforms:[],
+  estats:{avgscore:0,highscore:NumberInt(0),kills:NumberInt(0),deaths:NumberInt(0)},
+  mhstats:{avgscore:0,highscore:NumberInt(0),kills:NumberInt(0),deaths:NumberInt(0)}
 }
