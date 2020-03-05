@@ -16,11 +16,10 @@ The generic structure of the GCSV file should apply the following requirements:
 * The body should consist of: list of players on team 1, list of players on team 2
 
 Example:
-Let's say we have two teams: Team 1 (Joe and Dave), Team 2 (Susan and Karen). The teamd played a game of Escort with Team 1 winning. The GCSV file record to represent such situation should look like:
+Let's say we have two teams: Team 1 (Joe and Dave), Team 2 (Susan and Karen). The teamd played a game of Escort with Team 1 winning. The GCSV file record (a single line with a new=line-sign at the end) to represent such situation should look like:
 
 E,2,2,1,Joe,Dave,Susan,Karen
 
---header----------body----------
-
+-header----------body----------\
 [E,2,2,1],[Joe,Dave,Susan,Karen]
 
