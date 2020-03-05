@@ -33,7 +33,7 @@ The generic structure of the GCSV file should apply the following requirements:
 * The header should consist of: player's country's of origin ISO code, player's social media link or flag of no value input, value correspoing to the platforms(1) 
 * The body should consist of: list of player IGNs with the first one being the main IGN used as the name
 
-(1) - the value would be a decimal representation of a bitmap, indicating platforms. Assuming a ['PC','PS3','XBOX'] representation of the platform array a PC and XBOX player would have the following bitmap:\
+(1) - the value would be the decimal representation of a bitmap, indicating platforms. Assuming a ['PC','PS3','XBOX'] representation of the platform array a PC and XBOX player would have the following bitmap:\
 [1, 0, 1]\
 ['PC','PS3','XBOX']\
 0s and 1s represent which value on the list should be added to his profile.\
