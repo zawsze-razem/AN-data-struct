@@ -23,3 +23,28 @@ E,2,2,1,Joe,Dave,Susan,Karen
 -header----------body----------\
 [E,2,2,1],[Joe,Dave,Susan,Karen]
 
+## Player Entry
+
+The generic structure of the GCSV file should apply the following requirements:
+* Each record is represented by a line of text in a file
+* Each record should consist of a fixed-length header and a body of content
+* The header as well as body fields should be separated with token (commas by default)
+* The general structure of a record should be [header],[body]
+* The header should consist of: player's country's of origin ISO code, player's social media link or flag of no value input, value correspoing to the platforms(1) 
+* The body should consist of: list of player IGNs with the first one being the main IGN used as the name
+
+(1) - the value would be a decimal representation of a bitmap, indicating platforms. Assuming a ['PC','PS3','XBOX'] representation of the platform array a PC and XBOX player would have the following bitmap:\
+[1, 0, 1]\
+['PC','PS3','XBOX']\
+0s and 1s represent which value on the list should be added to his profile.\
+Thus, taking the bitmap [1,0,1] (analogue to [True, False, True]) and assuming it is a binary value we get 101 or in decimal representation 5.\
+We can use teh following algorithm to determin the value:\
+platform=0
+if PC:\
+  platform += 4\
+if PS3:\
+  platform +=2\
+if XBOX:\
+  platform +=1
+  
+  
