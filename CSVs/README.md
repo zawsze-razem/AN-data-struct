@@ -1,10 +1,10 @@
-## The generic CSV (GCSV) file structure for data updates
+# The generic CSV (GCSV) file structure for data updates
 
 This file defines the structure of generalized CSV files that can be used by backend algorithms to update the database.
 
 The generic character of this format should be expressed by the ability to use flexible tokens. The default token, however, as per the name of the file type is a comma (","). Thus, it should never appear as a non-token value. Tokens are characters used to define where one value ends and another begins.
 
-# Matches
+## Matches
 
 The generic structure of the GCSV file should apply the following requirements:
 * Each record is represented by a line of text in a file
