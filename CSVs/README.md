@@ -47,4 +47,11 @@ if PS3:\
 if XBOX:\
 &nbsp;&nbsp;platform +=1
   
-  
+
+Thus, a player entry would look like:
+
+US,https://www.twitter.com/dellpit,7,Dellpit,Daok0
+
+The scripts generating and reading these entries would have to have mechanisms in place to be able to handle empty link values or mistakes with fields such as country ISO code. Such mechanisms and values used to represent incorrect data is outside of the scope of this document.
+
+
