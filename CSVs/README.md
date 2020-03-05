@@ -41,10 +41,10 @@ Thus, taking the bitmap [1,0,1] (analogue to [True, False, True]) and assuming i
 We can use the following algorithm to determin the value:\
 platform=0\
 if PC:\
-\tplatform += 4\
+  platform += 4\
 if PS3:\
-\tplatform +=2\
+  platform +=2\
 if XBOX:\
-\tplatform +=1
+  platform +=1
   
   
