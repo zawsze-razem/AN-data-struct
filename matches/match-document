@@ -17,5 +17,5 @@
            kills:NumberInt(0),
            deaths:NumberInt(0)}],
   outcome: NumberInt(0),
-  new:"True"
+  new:true
 }
